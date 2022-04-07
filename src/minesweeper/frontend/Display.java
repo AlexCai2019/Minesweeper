@@ -44,17 +44,15 @@ public class Display
         controls.setLayout(new GridLayout(3,2));
         Label label = new Label("test");
         controls.add(label);
-        frame.add(new Button("北"), BorderLayout.NORTH);
-        frame.add(new Button("西"), BorderLayout.WEST);
-        frame.add(controls, BorderLayout.CENTER);
         gaming = false;
+        resize();
     }
 
     private void resize()
     {
         if (gaming)
         {
-            ; //git config --global user.email "you@example.com"
+            ;
         }
         else
         {
